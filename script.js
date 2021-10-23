@@ -4,7 +4,7 @@ var raster = new Raster({
     position: view.center
 });
 
-raster.scale(0.15);
+raster.scale(0.2);
 
 
 // Code ported to Paper.js from http://the389.com/9/1/
@@ -114,7 +114,7 @@ function updateWave(path) {
 
 function onKeyDown(event) {
 	if (event.key == 'space') {
-		path.fullySelected = !path.fullySelected;
-		path.fillColor = path.fullySelected ? null : 'black';
+		// path.fullySelected = !path.fullySelected;
+		path.fillColor = path.fullySelected ? null : '#05F2F2';
 	}
-}
+  }
