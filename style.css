@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Homemade+Apple&family=Major+Mono+Display&family=Rajdhani&display=swap');
+
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 5px;
+  background: white;
+
+}
+a {
+  color: #0050C1;
+}
+a:hover, a:visited:hover {
+  color: #50C100;
+}
+a:visited {
+  color: #00B0C1;
+}
+h1 {
+  color: #F279B2;
+}
+h2 {
+  font-family: 'Homemade Apple', cursive;
+  color:#7471D9;
+}
+p {
+font-family: 'Rajdhani', sans-serif;
+}
+
+canvas {
+  margin: auto;
+  width: 60%;
+  height: 500px;
+}
